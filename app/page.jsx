@@ -1,8 +1,9 @@
+import Header from "@/components/Header";
+import Head from "next/head";
+import Image from "next/image";
 function HomePage() {
   return (
-  <div className="flex flex-col items-center justify-center h-screen">
-    <h1 className="text-6xl font-bold">hello world</h1>
-  </div>
+    <Header />
   );
 }
 export default HomePage;
